@@ -1,0 +1,8 @@
+## 5. Explanation Blockchain exercise
+"A Blockchain is a sequential chain of records, similar to a linked list." ->
+That made me think about off course a linked list off course, but taking into account that is not required
+to make fast deletions and insertions, only appends, an array works perfectly
+
+Time and Space Complexity
+* Append operation in arrays takes O(n) being n the number of blocks ```chain = [Block(0, datetime.now(), "First Block", "0")]```
+
